@@ -1,1 +1,30 @@
-
+<!DOCTYPE EnglishLearner SYSTEM "elementdescriptions.dtd">
+<EnglishLearner>
+  <category>
+    <name>Families of English Learners</name>
+    <subcategory="first">Report Student Absence</subcategory>
+    <subcategory="second">Apply for Free/Reduced Lunch</subcategory>
+    <subcategory="third">Pay for iPad Insurance and Activities</subcategory>
+    <subcategory="fourth">Access to Parent Portal</subcategory>
+    <subcategory="fifth">Explore Community Education</subcategory>
+    <subcategory="sixth">Request an Interpreter</subcategory>
+  </category>
+  <category>
+    <name>Teachers of English Learners</name>
+    <subcategory="first">ACCESS Testing</subcategory>
+    <subcategory="second">WIDA</subcategory>
+    <subcategory="third">Forms/Documents (Internal)</subcategory>
+    <subcategory="fourth">Curriculum Resources</subcategory>
+    <subcategory="fifth">EL Program Information</subcategory>
+    <subcategory="sixth">MN Department of Education</subcategory>
+  </category>
+  <category>
+    <name>District 833 Contact Information</name>
+    <subcategory="first">EL District Office and EL Teachers</subcategory>
+    <subcategory="second">Elementary Schools</subcategory>
+    <subcategory="third">Secondary Schools</subcategory>
+    <subcategory="fourth">Nutrition Services (Breakfast/Lunch)</subcategory>
+    <subcategory="fifth">Transportation (Busing)</subcategory>
+    <subcategory="sixth">District Offices</subcategory>
+  </category>
+</EnglishLearner>
