@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE secondary_schools [
+  <!ELEMENT secondary_schools (secondary_school+)>
+  <!ELEMENT secondary_school (name,principal,office_coordinator,school_hours,address,phone+,fax)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT principal (#PCDATA)>
+  <!ELEMENT office_coordinator (#PCDATA)>
+  <!ELEMENT school_hours (#PCDATA)>
+  <!ELEMENT address (street,city,state,zip)>
+  <!ELEMENT street (#PCDATA)>
+  <!ELEMENT city (#PCDATA)>
+  <!ELEMENT state (#PCDATA)>
+  <!ELEMENT zip (#PCDATA)>
+  <!ELEMENT phone (#PCDATA)>
+  <!ATTLIST phone type (main_office) #REQUIRED>
+  <!ATTLIST phone type (attendance_office) #REQUIRED>
+  <!ELEMENT fax (#PCDATA)>
+]>
+<secondary_schools>
+  <secondary_school>
+    <name>Cottage Grove Middle School</name>
+    <principal>Harold Scott</principal>
+    <office_coordinator>Tammi Gaude</office_coordinator>
+    <school_hours>7:55am-2:25pm</school_hours>
+    <address>
+      <street>9775 Indian Blvd</street>
+      <city>Cottage Grove</city>
+      <state>MN</state>
+      <zip>55016</zip>
+    </address>
+    <phone type="main_office">651-425-6800</phone>
+    <phone type="attendance_office">651-425-6868</phone>
+    <fax>651-425-6828</fax>
+  </secondary_school>
+  <secondary_school>
+    <name>East Ridge High School</name>
+    <principal>James Smokrovich</principal>
+    <office_coordinator>Maureen Kostka</office_coordinator>
+    <school_hours>8:35am-3:05pm</school_hours>
+    <address>
+      <street>4200 Pioneer Dr</street>
+      <city>Woodbury</city>
+      <state>MN</state>
+      <zip>55125</zip>
+    </address>
+    <phone type="main_office">651-425-2300</phone>
+    <phone type="attendance_office">651-425-2301</phone>
+    <fax>651-425-2305</fax>
+  </secondary_school>
+  <secondary_school>
+    <name>Lake Middle School</name>
+    <principal>Molly Roeske</principal>
+    <office_coordinator>Becky Carlson</office_coordinator>
+    <school_hours>7:55am-2:25pm</school_hours>
+    <address>
+      <street>3133 Pioneer Dr</street>
+      <city>Woodbury</city>
+      <state>MN</state>
+      <zip>55125</zip>
+    </address>
+    <phone type="main_office">651-425-6400</phone>
+    <phone type="attendance_office">651-425-6464</phone>
+    <fax>651-425-6428</fax>
+  </secondary_school>
+  <secondary_school>
+    <name>Oltman Middle School</name>
+    <principal>Joni Hagebock</principal>
+    <office_coordinator>Dawn Tipcke</office_coordinator>
+    <school_hours>7:55am-2:25pm</school_hours>
+    <address>
+      <street>1020 Third St</street>
+      <city>St Paul Park</city>
+      <state>MN</state>
+      <zip>55071</zip>
+    </address>
+    <phone type="main_office">651-425-3500</phone>
+    <phone type="attendance_office">651-425-3535</phone>
+    <fax>651-425-3555</fax>
+  </secondary_school>
+  <secondary_school>
+    <name>Park High School</name>
+    <principal>Ginger Garski</principal>
+    <office_coordinator>Lynn Deiman</office_coordinator>
+    <school_hours>8:35am-3:05pm</school_hours>
+    <address>
+      <street>8040 80th St S</street>
+      <city>Cottage Grove</city>
+      <state>MN</state>
+      <zip>55016</zip>
+    </address>
+    <phone type="main_office">651-425-3700</phone>
+    <phone type="attendance_office">651-425-3500</phone>
+    <fax>651-425-3705</fax>
+  </secondary_school>
+  <secondary_school>
+    <name>South Washington Alternative High School</name>
+    <principal>Nick Falde</principal>
+    <office_coordinator>Laura McKenzie</office_coordinator>
+    <school_hours>8:45am-2:45pm</school_hours>
+    <address>
+      <street>8400 E Douglas Rd S</street>
+      <city>Cottage Grove</city>
+      <state>MN</state>
+      <zip>55016</zip>
+    </address>
+    <phone type="main_office">651-425-7000</phone>
+    <fax>651-425-7015</fax>
+  </secondary_school>
+  <secondary_school>
+    <name>Woodbury High School</name>
+    <principal>Sarah Sorenson-Wagner</principal>
+    <office_coordinator>Beth Burch</office_coordinator>
+    <school_hours>8:35am-3:05pm</school_hours>
+    <address>
+      <street>2665 Woodlane Dr</street>
+      <city>Woodbury</city>
+      <state>MN</state>
+      <zip>55125</zip>
+    </address>
+    <phone type="main_office">651-425-4400</phone>
+    <phone type="attendance_office">651-425-4400</phone>
+    <fax>651-425-4411</fax>
+  </secondary_school>
+  <secondary_school>
+    <name>Woodbury Middle School</name>
+    <principal>Kari Lopez</principal>
+    <office_coordinator>Jill Lynch</office_coordinator>
+    <school_hours>7:55am-2:25pm</school_hours>
+    <address>
+      <street>1425 School Dr</street>
+      <city>Woodbury</city>
+      <state>MN</state>
+      <zip>55129</zip>
+    </address>
+    <phone type="main_office">651-425-4501</phone>
+    <phone type="attendance_office">651-425-4545</phone>
+    <fax>651-425-4567</fax>
+  </secondary_school>
+</secondary_schools>
