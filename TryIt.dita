@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_x4f_nn4_rfb">
+    <title>How to ice fish</title>
+    <shortdesc>This is a list of steps that will help prepare you for ice fishing.</shortdesc>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Get a fishing license.</cmd>
+            </step>
+            <step>
+                <cmd>Find someone to go fishing with you.</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Friend</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Family</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>
